@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Fictional airline website for course of Loftschool"
+    />
+    <meta name="keywords" content="air, asia" />
+    <meta name="author" content="Andriy Semenchenko" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <title lang="en">Air Asia</title>
+  </head>
+  <body>
+    <div class="wrapper wrapper__services">
+      <div class="container">
+        <header class="header header__services">
+          <div class="menu menu__main menu__main_short">
+            <div class="logo">
+              <a href="main.html" class="logo__link">
+                <picture class="logo__picture" role="img">
+                  <source
+                    srcset="
+                      ./images/Air_Asia-logo.webp 1x,
+                      ./images/Air_Asia-logo.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <img
+                    srcset="
+                      ./images/Air_Asia-logo.png 1x,
+                      ./images/Air_Asia-logo.png 2x
+                    "
+                    alt="Logo of air company Air Asia"
+                    class="logo__img"
+                  />
+                </picture>
+              </a>
+            </div>
+            <nav class="nav nav__header">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a href="main.html" class="nav__link" title="main page"
+                    >Главная</a
+                  >
+                </li>
+                <li class="nav__item">
+                  <a
+                    href="./services.html"
+                    class="nav__link"
+                    title="places page"
+                    >Услуги</a
+                  >
+                </li>
+                <li class="nav__item">
+                  <a
+                    href="./mention.html"
+                    class="nav__link"
+                    title="reviews page"
+                    >Отзывы</a
+                  >
+                </li>
+              </ul>
+            </nav>
+            <div class="contacts contacts__header">
+              <a
+                class="contacts__tel"
+                href="tel:+88007003030"
+                title="company number"
+                >8 800 700 30 30</a
+              >
+              <div class="modal">
+                <a href="#" class="modal__link">График работы</a>
+                <div class="modal__block">
+                  <ul class="modal__list">
+                    <li class="modal__item modal__item_bold">
+                      пн-вс: 09:00 - 20:00
+                    </li>
+                    <li class="modal__item">Обед: 14:00 - 14:30</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="heading heading__services">
+            <h1 class="title title__h1">Отзывы</h1>
+            <ul class="breadcrumbs breadcrumbs__list">
+              <li class="breadcrumbs__item">
+                <a href="main.html" class="breadcrumbs__link">Главная</a>
+              </li>
+              <li class="breadcrumbs__item">
+                <a href="mention.html" class="breadcrumbs__link">Отзывы</a>
+              </li>
+            </ul>
+          </div>
+        </header>
+        <main class="main">
+          <section class="experience">
+            <ul class="experience__list">
+              <li class="experience__article">
+                <div class="user user__info">
+                  <img
+                    src="./images/content/reviews/ginger.jpg"
+                    alt="ginger"
+                    class="user__photo"
+                  />
+                  <div class="user__links">
+                    <a href="#" class="user__name">Иван Петрович</a>
+                    <img
+                      class="user__icon"
+                      src="./images/icons/socials/vk-blue.png"
+                      alt="vk"
+                    />
+                    <span class="user__tour">Водопад Янг-бей</span>
+                  </div>
+                </div>
+                <h3 class="experience__title">Крутой поход на водопады</h3>
+                <p class="experience__paragraph">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+                  incidunt expedita at itaque magni accusantium repudiandae
+                  dolorum voluptate odit quae atque totam facere laudantium,
+                  nisi vel dignissimos quo quisquam quibusdam rem, magnam ex
+                  porro ea. Quidem tenetur voluptate eum repellendus!
+                </p>
+                <time class="experience__date">Ноябрь 2019</time>
+              </li>
+              <li class="experience__article">
+                <div class="user user__info">
+                  <img
+                    src="./images/content/reviews/liza.jpg"
+                    alt="liza"
+                    class="user__photo"
+                  />
+                  <div class="user__links">
+                    <a href="#" class="user__name">Лиза Сидорова</a>
+                    <img
+                      src="./images/icons/socials/vk-blue.png"
+                      alt="Vk"
+                      class="user__icon"
+                    />
+                    <span class="user__tour">Тур по Таиланду</span>
+                  </div>
+                </div>
+                <h3 class="experience__title">Интересный тур по Таю</h3>
+                <p class="experience__paragraph">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. In
+                  consequuntur corrupti voluptatum, omnis quam provident
+                  corporis numquam neque recusandae. Quos temporibus voluptatem
+                  fugiat eveniet magni placeat eum inventore cupiditate nobis
+                  autem doloremque nesciunt velit fugit optio aliquid repellat
+                  provident tenetur amet, officia quia.
+                </p>
+                <time class="experience__date">Ноябрь 2019</time>
+              </li>
+              <li class="experience__article">
+                <div class="user user__info">
+                  <img
+                    src="./images/content/reviews/girl.jpg"
+                    alt="girl"
+                    class="user__photo"
+                  />
+                  <div class="user__links">
+                    <a href="#" class="user__name">Екатерина Жмых</a>
+                    <img
+                      src="./images/icons/socials/vk-blue.png"
+                      alt="vk"
+                      class="user__icon"
+                    />
+                    <span class="user__tour">Тур на остров обезьян</span>
+                  </div>
+                </div>
+                <h3 class="experience__title">
+                  Очень понравился тур на остров обезьян
+                </h3>
+                <p class="experience__paragraph">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Cupiditate porro deleniti, vero tempora perferendis culpa
+                  eaque. Odit ad quasi debitis dignissimos officia facere
+                  architecto incidunt in eaque adipisci nesciunt aspernatur
+                  corporis cum, tempora dolorem explicabo hic iste, saepe,
+                  eligendi suscipit nemo veniam quia nulla. Beatae quasi
+                  voluptas fugiat enim praesentium laudantium facilis obcaecati,
+                  doloribus illum aspernatur quae est at molestias reprehenderit
+                  et. Minus quibusdam, accusantium quae alias accusamus magnam
+                  nihil porro facilis! Officiis, facere modi? Lorem ipsum dolor,
+                  sit amet consectetur adipisicing elit. Consectetur tenetur
+                  error ullam perspiciatis ipsam deleniti aliquam fugiat sed
+                  maxime quis laboriosam incidunt, quas cumque ad.
+                </p>
+                <time class="experience__date">Ноябрь 2019</time>
+              </li>
+              <li class="experience__article">
+                <div class="user user__info">
+                  <img
+                    src="./images/content/reviews/guy.jpg"
+                    alt="guy"
+                    class="user__photo"
+                  />
+                  <div class="user__links">
+                    <a href="#" class="user__name">Антон Игорьевич</a>
+                    <img
+                      src="./images/icons/socials/vk-blue.png"
+                      alt="vk"
+                      class="user__icon"
+                    />
+                    <span class="user__tour">Тур по Индонезии</span>
+                  </div>
+                </div>
+                <h3 class="experience__title">
+                  Для первого раза выбрал тур по Индонезии. И не пожалел!
+                </h3>
+                <p class="experience__paragraph">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui
+                  dolore necessitatibus pariatur maxime, suscipit nihil sapiente
+                  esse magnam et inventore obcaecati eveniet quaerat quibusdam,
+                  quis consequuntur eligendi nesciunt ratione labore? Odit cum,
+                  quasi id molestias aut vero iure quisquam doloribus,
+                  accusantium dolores voluptatem. Blanditiis rerum voluptates,
+                  quia reprehenderit exercitationem unde.
+                </p>
+                <time class="experience__date">Ноябрь 2019</time>
+              </li>
+            </ul>
+          </section>
+          <section
+            class="pagination pagination__section pagination_dark pagination_mb-8"
+          >
+            <span class="pagination__text">Страница 1 из 7</span>
+            <ul class="pagination__list">
+              <li class="pagination__item">
+                <a class="pagination__link pagination__link_dark" href="#">1</a>
+              </li>
+              <li class="pagination__item">
+                <a class="pagination__link" href="#">2</a>
+              </li>
+              <li class="pagination__item">
+                <a class="pagination__link" href="#">3</a>
+              </li>
+              <li class="pagination__item">
+                <a class="pagination__link" href="#">4</a>
+              </li>
+              <li class="pagination__item">
+                <a class="pagination__link" href="#">5</a>
+              </li>
+              <li class="pagination__item">
+                <a class="pagination__link" href="#">6</a>
+              </li>
+              <li class="pagination__item">
+                <a class="pagination__link" href="#">7</a>
+              </li>
+            </ul>
+          </section>
+        </main>
+      </div>
+      <div class="banner banner__mentions">
+        <div class="banner__wrapper">
+          <h2 class="banner__title">Подберём тур по вашим желаниям</h2>
+        </div>
+      </div>
+      <div class="feedback">
+        <div class="feedback__wrapper">
+          <h2 class="feedback__title">Оставьте отзыв</h2>
+          <div class="feedback__form">
+            <form action="" class="form">
+              <div class="form__row">
+                <input
+                  type="text"
+                  class="form__text-field"
+                  placeholder="Имя"
+                />
+                <input
+                  type="text"
+                  class="form__text-field"
+                  placeholder="Ссылка на профиль VK"
+                />
+              </div>
+              <div class="form__row">
+                <textarea class="form__textarea" placeholder="Напишите свой честный отзыв">
+                </textarea>
+              </div>
+              <div class="form__control">
+                <h3 class="form__control-title">Какими услугами компании пользуетесь?</h3>
+
+                <ul class="checks">
+                  <li class="checks__item">
+                    <label class="checks__el">
+                      <input class="checks__checkbox" type="checkbox">
+                      <span class="checks__text">Остров обезьян</span>
+                    </label>
+                  </li>
+                  <li class="checks__item">
+                    <label class="checks__el">
+                      <input class="checks__checkbox" type="checkbox">
+                      <span class="checks__text">Тур по Таиланду</span>
+                    </label>
+                  </li>
+                  <li class="checks__item">
+                    <label class="checks__el">
+                      <input class="checks__checkbox" type="checkbox">
+                      <span class="checks__text">Водопад Янг-бей</span>
+                    </label>
+                  </li>
+                  <li class="checks__item">
+                    <label class="checks__el">
+                      <input class="checks__checkbox" type="checkbox">
+                      <span class="checks__text">Тур по Индонезии</span>
+                    </label>
+                  </li>
+                  <li class="checks__item">
+                    <label class="checks__el">
+                      <input class="checks__checkbox" type="checkbox">
+                      <span class="checks__text">Тур по Бали</span>
+                    </label>
+                  </li>
+                  <li class="checks__item">
+                    <label class="checks__el">
+                      <input class="checks__checkbox" type="checkbox">
+                      <span class="checks__text">Другое</span>
+                    </label>
+                  </li>
+                  <li class="checks__item">
+                    <label class="checks__el">
+                      <input class="checks__checkbox" type="checkbox">
+                      <span class="checks__text">Никакими</span>
+                    </label>
+                  </li>
+                </ul>
+              </div>
+              
+              <div class="form__buttons">
+                <button type="reset" class="btn btn__form btn__form_reset">Очистить</button>
+                <button type="submit" class="btn btn__form btn__form_submit">Отправить</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="footer__wrapper">
+          <div class="logo">
+            <a href="main.html" class="logo logo__link">
+              <picture class="logo__picture" role="img" title="logo">
+                <source
+                  srcset="
+                    ./images/Air_Asia-logo.webp 1x,
+                    ./images/Air_Asia-logo.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <img
+                  srcset="
+                    ./images/Air_Asia-logo.png 1x,
+                    ./images/Air_Asia-logo.png 2x
+                  "
+                  alt="Logo of air company Air Asia"
+                  class="logo__img"
+                />
+              </picture>
+            </a>
+          </div>
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="main.html" class="nav__link" title="main page"
+                  >Главная</a
+                >
+              </li>
+              <li class="nav__item">
+                <a href="./services.html" class="nav__link" title="places page"
+                  >Услуги</a
+                >
+              </li>
+              <li class="nav__item">
+                <a href="./mention.html" class="nav__link" title="reviews page"
+                  >Отзывы</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <div class="social">
+            <ul class="social__list social__main">
+              <li class="social__item">
+                <a
+                  href="https://web.telegram.org"
+                  title="link to Telegram"
+                  class="social__link social__link_telegram"
+                ></a>
+              </li>
+              <li class="social__item">
+                <a
+                  href="https://vk.com"
+                  title="link to"
+                  class="social__link social__link_vk"
+                ></a>
+              </li>
+              <li class="social__item">
+                <a
+                  href="https://facebook.com/"
+                  title="link to Facebook"
+                  class="social__link social__link_facebook"
+                ></a>
+              </li>
+              <li class="social__item">
+                <a
+                  href="https://instagram.com/"
+                  title="link to Instagram"
+                  class="social__link social__link_inst"
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="contacts">
+            <div class="contacts__block">
+              <span class="contacts__text contacts__text_small"
+                >Бесплатный звонок по России</span
+              >
+              <a
+                class="contacts__tel"
+                href="tel:+88007003030"
+                title="company number"
+                >8 800 700 30 30</a
+              >
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

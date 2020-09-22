@@ -1,0 +1,11 @@
+.menu {
+  &__main {
+    display: grid;
+    grid-template: 100% / 16.5rem 1fr max-content;
+    place-items: center start;
+
+    &_short {
+      grid-template-rows: 7.5rem;
+    }
+  }
+}

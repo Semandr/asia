@@ -1,0 +1,36 @@
+.contacts {
+  color: var(--white);
+  &__tel {
+    color: inherit;
+    font-size: var(--xm2);
+  }
+
+  &__text {
+    text-align: right;
+    font-size: var(--xs);
+
+    transition: all .1s ease-in;
+
+    &:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
+    &_small {
+      color: var(--brown-grey);
+      font-size: var(--s);
+
+      &:hover {
+        text-decoration: none;
+        cursor: none;
+      }
+    }
+  }
+
+  &__block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 20rem;
+  }
+}

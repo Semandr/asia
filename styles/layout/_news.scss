@@ -1,0 +1,39 @@
+.news {
+  color: var(--white);
+  &__main,
+  &__title {
+    margin-bottom: 5rem;
+  }
+  &__subtitle {
+    font-size: var(--xm);
+    margin-bottom: 1rem;
+  }
+  &__list {
+    display: grid;
+    grid-template: auto / repeat(2, 1fr);
+    gap: 3rem;
+  }
+  &__item {
+    min-height: 39rem;
+    border-radius: 1rem;
+    padding: 5rem 3rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    &_cristmas {
+      background: url('../images/content/news/plain.jpg') top / cover no-repeat;
+    }
+    &_winserf {
+      background: url('../images/content/news/surfer.jpg') top / cover no-repeat;
+    }
+  }
+  &__time {
+    font-size: var(--xs);
+    margin-bottom: 2rem;
+  }
+  &__text {
+    font-size: var(--xxs);
+  }
+}

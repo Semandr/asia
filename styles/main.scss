@@ -1,0 +1,41 @@
+@charset "UTF-8";
+//  Base stuff
+@import
+  'abstracts/variables.scss';
+
+@import
+  'base/base',
+  'base/fonts',
+  'base/typography';
+
+// 4. Layout-related sections
+@import
+'layout/about',
+'layout/footer',
+'layout/header',
+'layout/main',
+'layout/mention',
+'layout/news',
+'layout/pagination',
+'layout/partners',
+'layout/services',
+'layout/tours',
+'layout/wrapper';
+
+// 5. Components
+@import
+'components/animation',
+'components/article',
+'components/breadcrumbs',
+'components/button',
+'components/contacts',
+'components/form',
+'components/logo',
+'components/menu',
+'components/modal',
+'components/navigation',
+'components/social';
+
+// 6. Page-specific styles 
+@import
+  'pages/welcome';

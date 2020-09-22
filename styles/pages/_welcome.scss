@@ -1,0 +1,17 @@
+// Styles for first welcome-page
+.welcome {
+
+  background: var(--white) url(../images/bg/screen.jpg) top/cover no-repeat;
+  
+  &__container {
+    display: grid;
+    grid-template: repeat(3, min-content) / minmax(min-content, 60rem);
+    place-items: start center;
+    
+    background: url(../images/decor/shades.png) center no-repeat;
+
+
+    opacity: 0;
+    animation: pulsation 1.2s ease-in forwards;
+  }
+}

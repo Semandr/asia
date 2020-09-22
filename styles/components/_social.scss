@@ -1,0 +1,47 @@
+.social {
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    // width: 20rem;
+  }
+  &__main {
+    margin-right: 7.5rem;
+  }
+
+  &__item:not(:last-child) {
+    margin-right: 1rem;
+  }
+
+  &__link {
+    display: block;
+    width: 3.6rem;
+    height: 3.6rem;
+    text-decoration: none;
+
+    &_telegram {
+      background: url("../images/icons/socials/css_sprites.png") -1rem -1rem no-repeat;
+      &:hover {
+        background: url("../images/icons/socials/css_sprites.png") -6.6rem -1rem no-repeat;
+      }
+    }
+    &_vk {
+      background: url("../images/icons/socials/css_sprites.png") -1rem -6.6rem no-repeat;
+      &:hover {
+        background: url("../images/icons/socials/css_sprites.png") -6.6rem -6.6rem no-repeat;
+      }
+    }
+    &_facebook {
+      background: url("../images/icons/socials/css_sprites.png") -12.2rem -1rem no-repeat;
+      &:hover {
+        background: url("../images/icons/socials/css_sprites.png") -12.2rem -6.6rem no-repeat;
+      }
+    }
+    &_inst {
+      background: url("../images/icons/socials/css_sprites.png") -1rem -12.2rem no-repeat;
+      &:hover {
+        background: url("../images/icons/socials/css_sprites.png") -6.6rem -12.2rem no-repeat;
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+.places {
+  padding: 10rem 0 7rem 0;
+  font-size: var(--xxs);
+  line-height: 1.8;
+  
+  &__list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__item {
+    display: flex;
+    min-height: 33rem;
+
+    &:not(:last-child) {
+      margin-bottom: 5rem;
+    }
+  }
+  &__image-block {
+    min-width: 46rem;
+    max-height: 33rem;
+    border-radius: 1rem;
+    margin-right: 6rem;
+    overflow: hidden;
+  }
+
+  &__pic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &__article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__title {
+    margin-bottom: 2.7rem;
+    font-size: var(--l);
+    font-weight: 700;
+  }
+
+  &__text {
+    margin-bottom: 1.5rem;
+  }
+}

@@ -1,0 +1,106 @@
+html {
+  font-size: 62.5%; // ==> 1rem
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+button,
+button:active,
+button:visited {
+  border: none;
+}
+
+img {
+  height: 100%;
+  border-style: none;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {         
+  bottom: -0.25rem;
+}
+
+sup {
+  top: -0.5rem;
+}
+ul {
+  list-style: none;
+}
+
+.invisible {
+  visibility: hidden;
+}
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  /* 1 */
+}
+
+/*
+ * Extends the .sr-only class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.sr-only.focusable:active,
+.sr-only.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  white-space: inherit;
+  width: auto;
+}
+
+@media print {
+  *,
+  *::before,
+  *::after {
+    background: #fff;
+    color: #000;
+    /* Black prints faster */
+    box-shadow: none;
+    text-shadow: none;
+  }
+}

@@ -1,0 +1,30 @@
+.header {
+  color: var(--white);
+  display: grid;
+
+  &__main {
+    min-height: 50rem;
+    grid-template: 7.2rem 1fr / 1fr;
+    margin-bottom: 25.5rem;
+  }
+  &__services {
+    min-height: 41rem;
+  }
+}
+
+.heading {
+  &__main {
+    place-self: end start;
+    margin-bottom: 0;
+  }
+
+  &__services {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__break {
+    line-height: 1.2;
+  }
+}

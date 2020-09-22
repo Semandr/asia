@@ -1,0 +1,42 @@
+.partners {
+  width: 100%;
+  background: var(--white-2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__wrapper {
+    width: 114rem;
+    padding: 10rem 0 11rem;
+  }
+
+  &__title {
+    margin-bottom: 9rem;
+  }
+  &__list {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(4, 1fr);
+    place-items: center start;
+    gap: 1.5rem 2rem;
+  }
+
+  &__item {
+    &_right {
+      justify-self: center;
+    }
+  }
+
+  &__link {
+    display: inline-block;
+  }
+
+  &__image {
+    filter: grayscale(1);
+
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      filter: grayscale(0);
+    }
+  }
+}

@@ -1,0 +1,37 @@
+.wrapper {
+  overflow: hidden;
+  min-height: 100vh;
+  display: grid;
+  place-items: start center;
+
+  background-color: var(--navy);
+
+  &__welcome {
+    place-items: center center;
+  }
+
+  &__main {
+    background: url(../images/bg/hero.jpg) top center no-repeat,
+      url(../images/bg/bottom-pic.jpg) bottom center no-repeat, var(--navy);
+  }
+  &__services {
+    background: url(../images/bg/headline.jpg) top center no-repeat,
+      var(--white);
+  }
+}
+
+.container {
+  width: 114.2rem;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
+  &__footer {
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: springgreen;
+  }
+}

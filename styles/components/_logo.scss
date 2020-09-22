@@ -1,0 +1,11 @@
+.logo {
+  &__link {
+    display: inline-block;
+    width: 9.8rem;
+    margin-right: 6.6rem;
+  }
+  &__picture,
+  &__img {
+    width: 100%; 
+  }
+}

@@ -1,0 +1,48 @@
+.pagination {
+
+  color: var(--white);
+
+  &__section,
+  &__list {
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--xxs);
+  }
+  &__text {
+    margin-right: 2.5rem;
+  }
+
+  &__link {
+    color: inherit;
+    font-weight: 700;
+    padding: .7rem 1.4rem;
+    border-radius: 10rem;
+
+    transition: all .2s ease-in-out;
+
+    &_active,
+    &:hover {
+      color: var(--red);
+      background: var(--white);
+    }
+    &_dark,
+    &:hover {
+      color: var(--white);
+      background: var(--red); 
+    }
+  }
+  &_main {
+    margin-bottom: 15rem;
+  }
+  &_mb-8 {
+    margin-bottom: 8.5rem;
+  }
+  &_white {
+    color: var(--white);
+  }
+  &_dark {
+    color: var(--black);
+  }
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Fictional airline website for course of Loftschool">
+  <meta name="keywords" content="air, asia">
+  <meta name="author" content="Andriy Semenchenko">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <title lang="en">Air Asia</title>
+</head>
+<body>
+<div class="wrapper welcome wrapper__welcome">
+  <div class="welcome__container" role="group" title="group of presentation: logo, slogan, link.">
+    <picture class="picture" role="img" title="logo">
+      <source srcset="
+                ./images/Air_Asia-logo.webp 1x,
+                ./images/Air_Asia-logo.webp 2x"
+              type="image/webp">
+      <img srcset="
+                ./images/Air_Asia-logo.png 1x,
+                ./images/Air_Asia-logo.png 2x"
+           alt="Logo of air company Air Asia"
+           class="logo logo__welcome">
+    </picture>
+    <!-- h1 tag in this container for accessibility purposes only -->
+    <h1 class="title title_welcome">Открой для себя Азию</h1>
+    <a href="./main.html" title="enter to main page" class="btn btn__primary btn_welcome">войти</a>
+  </div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+.breadcrumbs {
+  display: flex;
+  font-size: var(--xs);
+
+  &__list {
+    margin-bottom: 2.5rem;
+  }
+
+  &__item {
+    display: inline-block;
+
+    &:not(:last-child)::after {
+      content: '\002F';
+      color: var(--brown-grey);
+      margin-right: .5rem;
+    }
+  }
+
+  &__link {
+    color: var(--brown-grey);
+    text-decoration: underline;
+
+    transition: all .2s ease-in-out;
+
+    &:hover {
+      font-weight: 600;
+    }
+  }
+}

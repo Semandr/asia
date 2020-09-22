@@ -1,0 +1,21 @@
+.footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+    justify-content: center;
+    background: var(--navy);
+
+  &__wrapper {
+    height: 14.5rem;
+    width: 114rem;
+    border-top: 1px solid rgba(255,255,255, .1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--navy);
+
+    &_color {
+      background: var(--navy);
+    }
+  }
+}

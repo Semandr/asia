@@ -1,0 +1,60 @@
+.experience {
+  padding-top: 10rem;
+  &__list {
+    column-count: 2;
+    column-gap: 3rem;
+    margin-bottom: 7rem;
+  }
+  &__article {
+    display: inline-flex;
+    flex-direction: column;
+    padding: 5rem 3rem;
+    background: var(--white-2);
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  &__title {
+    font-size: var(--xxm);
+    color: var(--black);
+    margin-bottom: 3rem;
+  }
+
+  &__paragraph {
+    font-size: var(--xxs);
+    line-height: 1.6;
+    color: var(--brown-grey-three);
+    margin-bottom: 5rem;
+  }
+
+  &__date {
+    font-size: var(--xs);
+    font-weight: 600;
+  }
+}
+
+.banner {
+  // border: 1px solid red;
+
+  &__mentions {
+    width: 100vw;
+    min-height: 36rem;
+
+    background: url(../images/decor/couple.png) right 21% bottom no-repeat,
+      url(../images/bg/middleline.jpg) no-repeat;
+  }
+
+  &__wrapper {
+    width: 114rem;
+    min-height: 36rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+  }
+
+  &__title {
+    font-size: var(--xl);
+    color: var(--white);
+    max-width: 70%;
+  }
+}

@@ -1,0 +1,95 @@
+.feedback {
+  width: 100%;
+  background: var(--white-2);
+
+  &__wrapper {
+    width: 114rem;
+    height: 80rem;
+    margin: 0 auto;
+    padding: 9rem 0;
+  }
+
+  &__title {
+    font-size: var(--xl);
+    margin-bottom: 6rem;
+  }
+}
+
+.form {
+
+  &__row {
+    display: flex;
+    margin-bottom: 3rem;
+  }
+
+  &__text-field,
+  &__textarea {
+    flex: 1;
+    padding: 2rem 3rem;
+    border-radius: .5rem;
+    border: none;
+    font-size: var(--m);
+    outline-color: var(--vermillion);
+    color: var(--dark-grey-two);
+  }
+
+  &__text-field {
+    &:not(:last-child) {
+      margin-right: 3rem;
+    }
+  }
+
+  &__textarea {
+    height: 23.5rem;
+    resize: none;
+  }
+
+  &__control {
+    display: flex;
+    margin-bottom: 3.5rem;
+  }
+
+  &__control-title {
+    width: 35%;
+    font-size: var(--m);
+    font-weight: normal;
+    color: var(--dark-grey-three);
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+.checks {
+
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  margin: -1rem -1rem 0 0;
+
+  &__item {
+    margin: 1rem 1rem 0 0;
+  }
+
+  &__el {
+    cursor: pointer;
+  }
+
+  &__checkbox {
+    display: none;
+  }
+
+  &__text {
+    display: inline-block;
+    padding: 1.2rem 1.6rem;
+    border-radius: 10rem;
+    font-size: var(--xs);
+    background-color: var(--light-grey);
+  }
+
+  &__checkbox:checked ~ .checks__text {
+    background-color: var(--green-pale);
+  }
+}

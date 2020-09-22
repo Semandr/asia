@@ -1,0 +1,75 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+.btn {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 700;
+
+  transition: all 0.2s ease-in-out;
+
+  color: var(--white);
+
+  border-radius: 10rem;
+
+  &__primary {
+    background-color: var(--red);
+    padding: 1.6rem 4rem;
+
+    // transition: all 0.2s ease-in-out;
+
+    &:hover {
+      background-color: var(--vermillion);
+      transform: translateY(-0.3rem);
+    }
+
+    &_tours {
+      align-self: start;
+      padding: 1.5rem 2.8rem;
+      color: var(--red);
+      background-color: var(--white);
+      border: 1px solid var(--red);
+
+      &:hover {
+        color: var(--white);
+      }
+    }
+
+    &_places {
+      padding: 1.5rem 4rem;
+    }
+  }
+
+  &_welcome {
+    padding: 1.5rem 6rem;
+  }
+
+  &__form {
+    width: 16.5rem;
+    height: 5rem;
+    font-size: var(--xs);
+    border-radius: 10rem;
+    cursor: pointer;
+
+    &:not(:last-child) {
+      margin-right: 2rem;
+    }
+
+    &_reset {
+      background: var(--brown-grey-two);
+
+      &:hover {
+        background: var(--black-three);
+      }
+    }
+
+    &_submit {
+      background: var(--vermillion);
+
+      &:hover {
+        background: var(--red);
+      }
+    }
+  }
+}

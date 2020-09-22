@@ -1,0 +1,45 @@
+.title {
+  color: var(--white);
+  font-weight: 700;
+  &__h1 {
+    font-size: var(--xxl);
+
+    &_main {
+      margin-bottom: 2.8rem;
+    }
+  }
+
+  &__h2 {
+    font-size: var(--l);
+  }
+
+  &__h3 {
+    font-size: var(--xm);
+  }
+
+  &_welcome {
+    font-size: var(--m);
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 6rem;
+  }
+  &_welcome-main {
+    display: block;
+    font-size: var(--m);
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 3rem;
+  }
+
+  &_hot {
+    margin-bottom: 5rem;
+    &::after {
+      content: url('../images/icons/flame.png');
+      margin-left: 1rem;
+    }
+  }
+  &_tours {
+    color: var(--black);
+    margin-bottom: 2.5rem;
+  }
+}

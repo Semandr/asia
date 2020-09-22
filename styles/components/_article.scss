@@ -1,0 +1,73 @@
+.mentions {
+
+  border: 1px solid orangered;
+  padding-top: 10rem;
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &__article {
+    border: 1px solid green;
+    background: var(--white-2);
+    border-radius: 1rem;
+    max-width: 55.5rem;
+    overflow: hidden;
+    padding: 4rem 2.5rem;
+    margin-bottom: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    
+  }
+}
+
+.user {
+  &__info {
+    display: flex;
+    align-items: center;
+    height: 14rem;
+    margin-bottom: 3.5rem;
+  }
+
+  &__photo {
+    border-radius: 50%;
+    margin-right: 2rem;
+  }
+
+  &__links {
+    display: grid;
+    grid-template: repeat(2, 4rem) / repeat(2,auto);
+  }
+
+  &__name {
+    font-size: var(--xm);
+    font-weight: 700;
+    color: var(--black);
+    text-decoration: none;
+    padding-right: 1rem;
+
+    transition: all .2s ease-in-out;
+
+    &:hover {
+      text-decoration: underline;
+      color: var(--blue-grey);
+    }
+  }
+
+  &__icon {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  &__tour {
+    padding: 1rem 2rem;
+    background: var(--green-pale);
+    border-radius: 5rem;
+    place-self: start;
+    font-size: var(--xs);
+  }
+}
